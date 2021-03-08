@@ -11,19 +11,13 @@
         }
     ],
     "require": {
-        "league/glide": "dev-only-flysystem-v2",
+        "league/glide": "^2.0",
         "symfony/http-foundation": "^2.3|^3.0|^4.0|^5.0"
     },
     "require-dev": {
         "mockery/mockery": "^0.9",
         "phpunit/phpunit": "^4.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Lustmored/glide"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "League\\Glide\\": "src/"
